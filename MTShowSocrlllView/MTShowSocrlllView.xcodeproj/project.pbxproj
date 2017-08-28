@@ -1,0 +1,674 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17DD00AE1F47FEC100A93B88 /* XMHPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 17DD00AD1F47FEC100A93B88 /* XMHPageControl.m */; };
+		17DD00B11F47FEEA00A93B88 /* MTPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 17DD00B01F47FEEA00A93B88 /* MTPageControl.m */; };
+		17DD00B41F4809AA00A93B88 /* MTBannerScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 17DD00B31F4809AA00A93B88 /* MTBannerScrollView.m */; };
+		516B2E1552DD43D0286CDA66 /* libPods-MTShowSocrlllView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 375A61CCE02746A41D13999B /* libPods-MTShowSocrlllView.a */; };
+		D41F68E71F3D95B600E959A8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D41F68E61F3D95B600E959A8 /* main.m */; };
+		D41F68EA1F3D95B600E959A8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D41F68E91F3D95B600E959A8 /* AppDelegate.m */; };
+		D41F68ED1F3D95B600E959A8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D41F68EC1F3D95B600E959A8 /* ViewController.m */; };
+		D41F68F01F3D95B600E959A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D41F68EE1F3D95B600E959A8 /* Main.storyboard */; };
+		D41F68F21F3D95B600E959A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D41F68F11F3D95B600E959A8 /* Assets.xcassets */; };
+		D41F68F51F3D95B600E959A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D41F68F31F3D95B600E959A8 /* LaunchScreen.storyboard */; };
+		D41F69001F3D95B600E959A8 /* MTShowSocrlllViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D41F68FF1F3D95B600E959A8 /* MTShowSocrlllViewTests.m */; };
+		D41F690B1F3D95B600E959A8 /* MTShowSocrlllViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D41F690A1F3D95B600E959A8 /* MTShowSocrlllViewUITests.m */; };
+		D41F691A1F3D965C00E959A8 /* MTShowAutoRollView.m in Sources */ = {isa = PBXBuildFile; fileRef = D41F69191F3D965C00E959A8 /* MTShowAutoRollView.m */; };
+		D41F69211F3DA94300E959A8 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D41F691B1F3DA94300E959A8 /* 1.jpg */; };
+		D41F69221F3DA94300E959A8 /* 6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D41F691C1F3DA94300E959A8 /* 6.jpg */; };
+		D41F69231F3DA94300E959A8 /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D41F691D1F3DA94300E959A8 /* 5.jpg */; };
+		D41F69241F3DA94300E959A8 /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D41F691E1F3DA94300E959A8 /* 4.jpg */; };
+		D41F69251F3DA94300E959A8 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D41F691F1F3DA94300E959A8 /* 2.jpg */; };
+		D41F69261F3DA94300E959A8 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D41F69201F3DA94300E959A8 /* 3.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D41F68FC1F3D95B600E959A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41F68DA1F3D95B600E959A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D41F68E11F3D95B600E959A8;
+			remoteInfo = MTShowSocrlllView;
+		};
+		D41F69071F3D95B600E959A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41F68DA1F3D95B600E959A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D41F68E11F3D95B600E959A8;
+			remoteInfo = MTShowSocrlllView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		17DD00AC1F47FEC100A93B88 /* XMHPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMHPageControl.h; sourceTree = "<group>"; };
+		17DD00AD1F47FEC100A93B88 /* XMHPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMHPageControl.m; sourceTree = "<group>"; };
+		17DD00AF1F47FEEA00A93B88 /* MTPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTPageControl.h; sourceTree = "<group>"; };
+		17DD00B01F47FEEA00A93B88 /* MTPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTPageControl.m; sourceTree = "<group>"; };
+		17DD00B21F4809AA00A93B88 /* MTBannerScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTBannerScrollView.h; sourceTree = "<group>"; };
+		17DD00B31F4809AA00A93B88 /* MTBannerScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTBannerScrollView.m; sourceTree = "<group>"; };
+		375A61CCE02746A41D13999B /* libPods-MTShowSocrlllView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MTShowSocrlllView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC0465ADFDEF2EB1D0C1317B /* Pods-MTShowSocrlllView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MTShowSocrlllView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MTShowSocrlllView/Pods-MTShowSocrlllView.debug.xcconfig"; sourceTree = "<group>"; };
+		D41F68E21F3D95B600E959A8 /* MTShowSocrlllView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MTShowSocrlllView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D41F68E61F3D95B600E959A8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D41F68E81F3D95B600E959A8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D41F68E91F3D95B600E959A8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D41F68EB1F3D95B600E959A8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D41F68EC1F3D95B600E959A8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D41F68EF1F3D95B600E959A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D41F68F11F3D95B600E959A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D41F68F41F3D95B600E959A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D41F68F61F3D95B600E959A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D41F68FB1F3D95B600E959A8 /* MTShowSocrlllViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MTShowSocrlllViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D41F68FF1F3D95B600E959A8 /* MTShowSocrlllViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTShowSocrlllViewTests.m; sourceTree = "<group>"; };
+		D41F69011F3D95B600E959A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D41F69061F3D95B600E959A8 /* MTShowSocrlllViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MTShowSocrlllViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D41F690A1F3D95B600E959A8 /* MTShowSocrlllViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTShowSocrlllViewUITests.m; sourceTree = "<group>"; };
+		D41F690C1F3D95B600E959A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D41F69181F3D965C00E959A8 /* MTShowAutoRollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTShowAutoRollView.h; sourceTree = "<group>"; };
+		D41F69191F3D965C00E959A8 /* MTShowAutoRollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTShowAutoRollView.m; sourceTree = "<group>"; };
+		D41F691B1F3DA94300E959A8 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		D41F691C1F3DA94300E959A8 /* 6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6.jpg; sourceTree = "<group>"; };
+		D41F691D1F3DA94300E959A8 /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpg; sourceTree = "<group>"; };
+		D41F691E1F3DA94300E959A8 /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
+		D41F691F1F3DA94300E959A8 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		D41F69201F3DA94300E959A8 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		FDBA938DF6B270A4C842EF63 /* Pods-MTShowSocrlllView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MTShowSocrlllView.release.xcconfig"; path = "Pods/Target Support Files/Pods-MTShowSocrlllView/Pods-MTShowSocrlllView.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D41F68DF1F3D95B600E959A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				516B2E1552DD43D0286CDA66 /* libPods-MTShowSocrlllView.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D41F68F81F3D95B600E959A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D41F69031F3D95B600E959A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4013898B6090A9FFE84F0018 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CC0465ADFDEF2EB1D0C1317B /* Pods-MTShowSocrlllView.debug.xcconfig */,
+				FDBA938DF6B270A4C842EF63 /* Pods-MTShowSocrlllView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D41F68D91F3D95B600E959A8 = {
+			isa = PBXGroup;
+			children = (
+				D41F68E41F3D95B600E959A8 /* MTShowSocrlllView */,
+				D41F68FE1F3D95B600E959A8 /* MTShowSocrlllViewTests */,
+				D41F69091F3D95B600E959A8 /* MTShowSocrlllViewUITests */,
+				D41F68E31F3D95B600E959A8 /* Products */,
+				4013898B6090A9FFE84F0018 /* Pods */,
+				F837A2926F60A5EC6CD2EEA9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D41F68E31F3D95B600E959A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D41F68E21F3D95B600E959A8 /* MTShowSocrlllView.app */,
+				D41F68FB1F3D95B600E959A8 /* MTShowSocrlllViewTests.xctest */,
+				D41F69061F3D95B600E959A8 /* MTShowSocrlllViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D41F68E41F3D95B600E959A8 /* MTShowSocrlllView */ = {
+			isa = PBXGroup;
+			children = (
+				D41F691B1F3DA94300E959A8 /* 1.jpg */,
+				D41F691C1F3DA94300E959A8 /* 6.jpg */,
+				D41F691D1F3DA94300E959A8 /* 5.jpg */,
+				D41F691E1F3DA94300E959A8 /* 4.jpg */,
+				D41F691F1F3DA94300E959A8 /* 2.jpg */,
+				D41F69201F3DA94300E959A8 /* 3.jpg */,
+				D41F68E81F3D95B600E959A8 /* AppDelegate.h */,
+				D41F68E91F3D95B600E959A8 /* AppDelegate.m */,
+				D41F68EB1F3D95B600E959A8 /* ViewController.h */,
+				D41F68EC1F3D95B600E959A8 /* ViewController.m */,
+				17DD00B21F4809AA00A93B88 /* MTBannerScrollView.h */,
+				17DD00B31F4809AA00A93B88 /* MTBannerScrollView.m */,
+				17DD00AF1F47FEEA00A93B88 /* MTPageControl.h */,
+				17DD00B01F47FEEA00A93B88 /* MTPageControl.m */,
+				D41F69181F3D965C00E959A8 /* MTShowAutoRollView.h */,
+				D41F69191F3D965C00E959A8 /* MTShowAutoRollView.m */,
+				17DD00AC1F47FEC100A93B88 /* XMHPageControl.h */,
+				17DD00AD1F47FEC100A93B88 /* XMHPageControl.m */,
+				D41F68EE1F3D95B600E959A8 /* Main.storyboard */,
+				D41F68F11F3D95B600E959A8 /* Assets.xcassets */,
+				D41F68F31F3D95B600E959A8 /* LaunchScreen.storyboard */,
+				D41F68F61F3D95B600E959A8 /* Info.plist */,
+				D41F68E51F3D95B600E959A8 /* Supporting Files */,
+			);
+			path = MTShowSocrlllView;
+			sourceTree = "<group>";
+		};
+		D41F68E51F3D95B600E959A8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D41F68E61F3D95B600E959A8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D41F68FE1F3D95B600E959A8 /* MTShowSocrlllViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				D41F68FF1F3D95B600E959A8 /* MTShowSocrlllViewTests.m */,
+				D41F69011F3D95B600E959A8 /* Info.plist */,
+			);
+			path = MTShowSocrlllViewTests;
+			sourceTree = "<group>";
+		};
+		D41F69091F3D95B600E959A8 /* MTShowSocrlllViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D41F690A1F3D95B600E959A8 /* MTShowSocrlllViewUITests.m */,
+				D41F690C1F3D95B600E959A8 /* Info.plist */,
+			);
+			path = MTShowSocrlllViewUITests;
+			sourceTree = "<group>";
+		};
+		F837A2926F60A5EC6CD2EEA9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				375A61CCE02746A41D13999B /* libPods-MTShowSocrlllView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D41F68E11F3D95B600E959A8 /* MTShowSocrlllView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D41F690F1F3D95B600E959A8 /* Build configuration list for PBXNativeTarget "MTShowSocrlllView" */;
+			buildPhases = (
+				D4DE33C951E859EFE2E194C5 /* [CP] Check Pods Manifest.lock */,
+				D41F68DE1F3D95B600E959A8 /* Sources */,
+				D41F68DF1F3D95B600E959A8 /* Frameworks */,
+				D41F68E01F3D95B600E959A8 /* Resources */,
+				AFA2458DD3260C0E742FA110 /* [CP] Embed Pods Frameworks */,
+				F13DACFD8368CAE48FD05242 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MTShowSocrlllView;
+			productName = MTShowSocrlllView;
+			productReference = D41F68E21F3D95B600E959A8 /* MTShowSocrlllView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D41F68FA1F3D95B600E959A8 /* MTShowSocrlllViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D41F69121F3D95B600E959A8 /* Build configuration list for PBXNativeTarget "MTShowSocrlllViewTests" */;
+			buildPhases = (
+				D41F68F71F3D95B600E959A8 /* Sources */,
+				D41F68F81F3D95B600E959A8 /* Frameworks */,
+				D41F68F91F3D95B600E959A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D41F68FD1F3D95B600E959A8 /* PBXTargetDependency */,
+			);
+			name = MTShowSocrlllViewTests;
+			productName = MTShowSocrlllViewTests;
+			productReference = D41F68FB1F3D95B600E959A8 /* MTShowSocrlllViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D41F69051F3D95B600E959A8 /* MTShowSocrlllViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D41F69151F3D95B600E959A8 /* Build configuration list for PBXNativeTarget "MTShowSocrlllViewUITests" */;
+			buildPhases = (
+				D41F69021F3D95B600E959A8 /* Sources */,
+				D41F69031F3D95B600E959A8 /* Frameworks */,
+				D41F69041F3D95B600E959A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D41F69081F3D95B600E959A8 /* PBXTargetDependency */,
+			);
+			name = MTShowSocrlllViewUITests;
+			productName = MTShowSocrlllViewUITests;
+			productReference = D41F69061F3D95B600E959A8 /* MTShowSocrlllViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41F68DA1F3D95B600E959A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "zj-db0631";
+				TargetAttributes = {
+					D41F68E11F3D95B600E959A8 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 2V3T4T4V4S;
+						ProvisioningStyle = Automatic;
+					};
+					D41F68FA1F3D95B600E959A8 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 69WQ3J9265;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D41F68E11F3D95B600E959A8;
+					};
+					D41F69051F3D95B600E959A8 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 69WQ3J9265;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D41F68E11F3D95B600E959A8;
+					};
+				};
+			};
+			buildConfigurationList = D41F68DD1F3D95B600E959A8 /* Build configuration list for PBXProject "MTShowSocrlllView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D41F68D91F3D95B600E959A8;
+			productRefGroup = D41F68E31F3D95B600E959A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D41F68E11F3D95B600E959A8 /* MTShowSocrlllView */,
+				D41F68FA1F3D95B600E959A8 /* MTShowSocrlllViewTests */,
+				D41F69051F3D95B600E959A8 /* MTShowSocrlllViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D41F68E01F3D95B600E959A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D41F69261F3DA94300E959A8 /* 3.jpg in Resources */,
+				D41F68F51F3D95B600E959A8 /* LaunchScreen.storyboard in Resources */,
+				D41F69241F3DA94300E959A8 /* 4.jpg in Resources */,
+				D41F69211F3DA94300E959A8 /* 1.jpg in Resources */,
+				D41F68F21F3D95B600E959A8 /* Assets.xcassets in Resources */,
+				D41F69231F3DA94300E959A8 /* 5.jpg in Resources */,
+				D41F68F01F3D95B600E959A8 /* Main.storyboard in Resources */,
+				D41F69251F3DA94300E959A8 /* 2.jpg in Resources */,
+				D41F69221F3DA94300E959A8 /* 6.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D41F68F91F3D95B600E959A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D41F69041F3D95B600E959A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AFA2458DD3260C0E742FA110 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MTShowSocrlllView/Pods-MTShowSocrlllView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D4DE33C951E859EFE2E194C5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MTShowSocrlllView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F13DACFD8368CAE48FD05242 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MTShowSocrlllView/Pods-MTShowSocrlllView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D41F68DE1F3D95B600E959A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D41F68ED1F3D95B600E959A8 /* ViewController.m in Sources */,
+				17DD00B11F47FEEA00A93B88 /* MTPageControl.m in Sources */,
+				17DD00AE1F47FEC100A93B88 /* XMHPageControl.m in Sources */,
+				D41F68EA1F3D95B600E959A8 /* AppDelegate.m in Sources */,
+				D41F691A1F3D965C00E959A8 /* MTShowAutoRollView.m in Sources */,
+				D41F68E71F3D95B600E959A8 /* main.m in Sources */,
+				17DD00B41F4809AA00A93B88 /* MTBannerScrollView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D41F68F71F3D95B600E959A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D41F69001F3D95B600E959A8 /* MTShowSocrlllViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D41F69021F3D95B600E959A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D41F690B1F3D95B600E959A8 /* MTShowSocrlllViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D41F68FD1F3D95B600E959A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D41F68E11F3D95B600E959A8 /* MTShowSocrlllView */;
+			targetProxy = D41F68FC1F3D95B600E959A8 /* PBXContainerItemProxy */;
+		};
+		D41F69081F3D95B600E959A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D41F68E11F3D95B600E959A8 /* MTShowSocrlllView */;
+			targetProxy = D41F69071F3D95B600E959A8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D41F68EE1F3D95B600E959A8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D41F68EF1F3D95B600E959A8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D41F68F31F3D95B600E959A8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D41F68F41F3D95B600E959A8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D41F690D1F3D95B600E959A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D41F690E1F3D95B600E959A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D41F69101F3D95B600E959A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC0465ADFDEF2EB1D0C1317B /* Pods-MTShowSocrlllView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2V3T4T4V4S;
+				INFOPLIST_FILE = MTShowSocrlllView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Meitu.MTShowSocrlllView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
+			};
+			name = Debug;
+		};
+		D41F69111F3D95B600E959A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDBA938DF6B270A4C842EF63 /* Pods-MTShowSocrlllView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2V3T4T4V4S;
+				INFOPLIST_FILE = MTShowSocrlllView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Meitu.MTShowSocrlllView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
+			};
+			name = Release;
+		};
+		D41F69131F3D95B600E959A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 69WQ3J9265;
+				INFOPLIST_FILE = MTShowSocrlllViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Meitu.MTShowSocrlllViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MTShowSocrlllView.app/MTShowSocrlllView";
+			};
+			name = Debug;
+		};
+		D41F69141F3D95B600E959A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 69WQ3J9265;
+				INFOPLIST_FILE = MTShowSocrlllViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Meitu.MTShowSocrlllViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MTShowSocrlllView.app/MTShowSocrlllView";
+			};
+			name = Release;
+		};
+		D41F69161F3D95B600E959A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 69WQ3J9265;
+				INFOPLIST_FILE = MTShowSocrlllViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Meitu.MTShowSocrlllViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MTShowSocrlllView;
+			};
+			name = Debug;
+		};
+		D41F69171F3D95B600E959A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 69WQ3J9265;
+				INFOPLIST_FILE = MTShowSocrlllViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Meitu.MTShowSocrlllViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MTShowSocrlllView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D41F68DD1F3D95B600E959A8 /* Build configuration list for PBXProject "MTShowSocrlllView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D41F690D1F3D95B600E959A8 /* Debug */,
+				D41F690E1F3D95B600E959A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D41F690F1F3D95B600E959A8 /* Build configuration list for PBXNativeTarget "MTShowSocrlllView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D41F69101F3D95B600E959A8 /* Debug */,
+				D41F69111F3D95B600E959A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D41F69121F3D95B600E959A8 /* Build configuration list for PBXNativeTarget "MTShowSocrlllViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D41F69131F3D95B600E959A8 /* Debug */,
+				D41F69141F3D95B600E959A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D41F69151F3D95B600E959A8 /* Build configuration list for PBXNativeTarget "MTShowSocrlllViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D41F69161F3D95B600E959A8 /* Debug */,
+				D41F69171F3D95B600E959A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41F68DA1F3D95B600E959A8 /* Project object */;
+}
